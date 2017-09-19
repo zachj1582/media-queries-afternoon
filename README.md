@@ -1,6 +1,6 @@
 # media-queries-afternoon
 
-(./src/img/landing.png)
+![alt text](./src/img/landing.png)
 
 Today, we'll be cloning [this](https://blackrockdigital.github.io/startbootstrap-agency/).
 
