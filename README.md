@@ -1,4 +1,4 @@
-# media-queries-afternoon
+## Portfolio Clone
 
 ![alt text](./src/img/landing.png)
 
