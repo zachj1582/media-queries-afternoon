@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  height: 200vh;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+}
+
+#nav-container{
+  height: 50px;
+  width: 40%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90%;
+}
+
+#logo{
+  color: #fed136;
+  font-size: 1.75em;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+}
+
+
+#main-box{
+  height: 80vh;
+  background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#center-content{
+  height: 80vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#inner{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#welcome{
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+  font-family: serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#its{
+  color: white;
+  font-size: 75px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 20px 0px;
+  margin-bottom: 40px;
+}
+
+#tell{
+  color: white;
+  font-size: 18px;
+  background-color: #fed136;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: .25rem;
+  padding: 18px;
+}
+
+#mobile-nav{
+  display: none;
+  font-size: 12px;
+  background-color: #fed136;
+  padding: 13px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: .25rem;
+  margin-left: 200px;
+}
+
+@media(max-width: 992px){
+  #nav-container{
+    display: none;
+  }
+  #mobile-nav{
+    display: initial;
+  }
+}
+
+@media(max-width: 768px){
+  #welcome{
+    font-size: 22px;
+  }
+  #its{
+    font-size: 50px;
+  }
+}
